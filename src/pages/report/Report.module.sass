@@ -1,0 +1,42 @@
+@import "../../colors"
+.devices
+  padding: 30px
+  & > div
+    padding: 30px
+  .status
+    padding: .2rem .5rem
+    font-size: .6rem
+    font-weight: bold
+    border-radius: .3rem
+  .danger
+    @extend .status
+    color: #d23030
+    background-color: #f5c4c4
+    border: 1px solid #e27b7b
+  .success
+    @extend .status
+    color: #5bc227
+    background-color: #d0f5bf
+    border: 1px solid #95e06d
+  .area
+    max-width: 800px
+    margin: auto
+  .consumtionArea
+    background-color: #ffc9c9
+    padding: .5rem 1rem
+    border-radius: .3rem
+  .temperatureArea
+    background-color: #b5f6eb
+    padding: .5rem 1rem
+    border-radius: .3rem
+  .dataArea
+    & > div
+      margin-top: 2rem
+  .primary_btn
+    display: inline-block
+    max-width: 200px
+  .temperatureConsumArea
+    width: 200px
+  .guide
+    max-width: 300px
+    margin: auto

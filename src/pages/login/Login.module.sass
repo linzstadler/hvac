@@ -1,0 +1,52 @@
+@import "src/colors"
+.login
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+  .all
+    background-color: #ffffff
+    border-radius: 30px
+    overflow: hidden
+    max-width: 420px
+    width: 100%
+  .head
+    padding: 2.5rem
+    background-color: $primary
+    border-radius: 30px 30px 0 30px
+    position: relative
+    text-align: center
+    .logo
+      max-width: 160px
+      display: inline-block
+
+
+    &::before
+      content: ""
+      position: absolute
+      background-color: transparent
+      bottom: -60px
+      height: 60px
+      width: 30px
+      right: 0
+      border-top-right-radius: 30px
+      box-shadow: 0 -30px 0 0 $primary
+
+
+
+  .body
+    background-color: #fff
+    padding: 40px
+    h3
+      margin: 0
+      margin-bottom: 20px
+      color: $third
+    .primary_btn
+      padding: 13px
+      line-height: 100%
+      height: auto
+      margin-top: 40px
+    .newAccount
+      a
+        color: $primary
